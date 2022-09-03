@@ -46,8 +46,8 @@ const displayNews = news => {
        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
            <i class="fa-solid fa-arrow-right"></i>
        </button>
-       </div>
-       </div>
+        </div>
+      </div>
      </div>
    </div>
 
