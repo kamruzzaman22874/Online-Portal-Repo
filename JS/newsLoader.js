@@ -70,13 +70,10 @@ const loadModal = (id) => {
 const displayModal = modal => {
   // console.log(modal);
   modal.forEach(modal => {
-     console.log(modal);
+  console.log(modal);
 
 
   });
-  document.getElementById('seeAll-btn').addEventListener('click',function(){
-    const btnField = document.getElementById
-  })
 }
 loadModal()
 
