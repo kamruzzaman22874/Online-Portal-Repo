@@ -14,10 +14,10 @@ const loadCategories = () => {
      const categoryList = document.createElement('ul');
      categoryList.classList.add('navbar-nav');
      categoryList.innerHTML = `
-         <li class="nav-item p-4">
-         <a  class="nav-link fw-bold fs-5" href="#" onclick ="loadNews('${category.category_id}')">
+         <li class="nav-item  category-li p-4 bg-primary text-white">
+         <button  class=" category-btn btn btn-outline-warning px-1 py-2 border-0 nav-link fw-bold fs-5" href="#" onclick ="loadNews('${category.category_id}')">
          ${category.category_name}
-         </a>
+         </button>
          </li>                 
        `;
      categoriesContainer.appendChild(categoryList);
