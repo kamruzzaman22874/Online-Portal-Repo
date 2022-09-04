@@ -94,7 +94,6 @@ showModal = (newsData, objectId) => {
     </div>
   `
 
-
     modal.appendChild(div);
 
     // Stopping the Spinner After full load//
@@ -102,8 +101,6 @@ showModal = (newsData, objectId) => {
 
 }
 // !showing Modal
-
-
 
 
 //!Close Modal Start
@@ -114,7 +111,6 @@ const modalClose = () => {
     modal.classList.add('hidden');
 }
 
-
 document.body.addEventListener('click', () => {
     const modal = document.getElementById('modal-section');
 
@@ -124,13 +120,7 @@ document.body.addEventListener('click', () => {
 })
 //!Close Modal End
 
-
-
 // showDetails();
-
-
-
-
 
 function showDetails(){
 aler
