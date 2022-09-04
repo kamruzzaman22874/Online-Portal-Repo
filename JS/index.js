@@ -177,9 +177,6 @@ const displayModal = modalDetails => {
   modalMainDiv.appendChild(modalContentCard);
 }
 
-
-
-
 /* Spinner */
 const toggleSpinner = isLoading => {
   const spinnerContainer = document.getElementById('spinner-div');
@@ -190,10 +187,6 @@ const toggleSpinner = isLoading => {
     spinnerContainer.classList.add('d-none');
   }
 }
-
-
-
-
 
 categoryNewsShow('08', 'All News');
 
